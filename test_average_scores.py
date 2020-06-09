@@ -10,7 +10,5 @@ class MyTestCase(unittest.TestCase):
      with mock.patch ('builtins.input', side_effect=[85, 90, 95]):
         assert average_scores.average(a,b,c)== 90
 
-
-
 if __name__ == '__main__':
     unittest.main()
