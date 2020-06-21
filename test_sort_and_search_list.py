@@ -10,7 +10,7 @@ class MyTestCase( unittest.TestCase ):
         self.assertEqual(sort_and_search_list.search_list(listA,77), -1)
 
     def test_sort_list(self):
-        self.assertEqual(sort_and_search_list.sort_list(listA), p)
+        self.assertEqual(sort_and_search_list.sort_list(listA),[1, 3, 3, 4, 5, 8, 9])
 
 listA = [4, 3, 5, 1, 9, 3, 8 ]
 
